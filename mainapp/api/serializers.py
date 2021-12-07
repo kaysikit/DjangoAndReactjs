@@ -21,6 +21,5 @@ class BlogPostListRetrieveSerializer(serializers.ModelSerializer):
     blog_category = BlogCategorySerializer()
 
     class Meta:
-        class Meta:
-            model = BlogPost
-            fields = '__all__'
+        model = BlogPost
+        fields = '__all__'
